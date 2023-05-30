@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Mari Carmen García Cortés" />
+    <meta name="keyword" content="ajedrez, kids, love, chess" />
+    <title>Kids Love Chess</title>
+    <link rel="shortcut icon" type="image/svg" href="assets\img\Reina.svg" />
+    <link rel="stylesheet" type="text/css" href="styleChess.css" />
+    <link rel="stylesheet" type="text/css" href="Chess\ChessBoard\css\chessboard-1.0.0.css" />
+
+     <!-- Para exportar el archivo chess.ts y poder usar el objeto chess-->
+     <script>var exports = {};</script>
+
+      <!--Enlazo con los scripts de las librerías que voy a utilizar-->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="Chess\ChessBoard\js\chessboard-1.0.0.js"></script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.js"></script>   
+
+  </head>
+
+  <body>
+    <main class="">
+      <header>
+        <nav class="navChess1">
+          <a href="index.html"><img
+              src="assets\img\Logo Horizontal.png"
+              class="logo-nav-chess"
+              alt="logoReina"
+          /></a>
+          
+        </nav>
+      </header>
+
+      <div class="contenedorAjedrez">
+        <div class="contenedorTablero">
+          <div id="myBoard" style="width: 500px"></div>
+          
+        </div>
+
+        
+          <div class="opcionesJuego">
+            <div class="cabecera">
+              <div class="opcionesTablero">
+                <button onclick= "reiniciar()" type="button" class="reiniciar">Reiniciar</button>
+                <button  type="button" class="girarTablero">Girar Tablero</button>
+                
+              </div>
+              
+            </div>
+            <div class="eligeOponente">
+              <button onclick= "contraMaquina()" type="button" class="maquina">Jugar Contra<br>la Máquina</button>
+              <button onclick= "contraOponente()" type="button" class="oponente">Jugar Contra<br>un oponente</button>
+            </div>
+  
+
+          
+         
+        </div>
+      </div>
+    </main>
+    <script src="playChessIndex.js"></script>
+  </body>
+</html>

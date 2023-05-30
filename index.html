@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Mari Carmen García Cortés"/>
+    <meta name="keyword" content="ajedrez, kids, love, chess"/>
+	<meta name="author" content="Mari Carmen García Cortés"/>
+    <title>Kids Love Chess</title>
+    <link rel="shortcut icon" type="image/svg" href="assets\img\Reina.svg"/> <!-- Icono para la pestaña de la página-->
+	<link rel="stylesheet" type="text/css" href="style.css"> <!-- Enlace a la página css-->
+    <script type="module" src="index.js"></script><!-- Enlace al script para funcionalidad-->
+</head>
+
+
+    
+<body>
+
+
+    <header>
+        <nav class="menu" id="id-menu">
+            <span src= "assets\img\Reina.png" class="icono-menu"></span>
+            <a class="home" href="index.html">Home</a>
+            <a class="ajedrez" href="chess.html">Juega al Ajedrez</a>
+        </nav>
+    </header>
+
+    <main>
+
+    <div class="presentacion" id="presentacion">
+        <div class="logo">
+            <img src="assets\img\LogoReina.png" class="logo_presentacion" alt="logo_presentacion">
+        </div>
+
+        <div class="descripción">
+            <h1>¡Bienvenidos a <br> Kids Love Chess!</h1>
+            <p>Descubre el mundo del ajedrez mientras te diviertes. ¡Únete a nosotros y descubre el placer de jugar al ajedrez!</p>
+        </div>
+    </div>
+
+
+
+    <div class="grid-container">
+
+        <div class="primer-modulo">
+            <div class="introduccion">
+                <h1>¡Juega al ajedrez!</h1>                
+                <p>¡Explora el fascinante universo del ajedrez en Kids Love Chess! Conviértete en un maestro de la estrategia y despierta tu mente mientras te enfrentas a emocionantes desafíos.</p>
+            </div>
+            <div class="contenedor-img-introduccion">
+                <img src="assets\img\img-introduccion.png" class="img-introduccion">
+            </div>
+        </div>
+
+        <div class="segundo-modulo">
+            <div class= "contenedor-img-interactivo">
+                <img src="assets\img\img-interactivo.png" class="img-interactivo">
+            </div>   
+            <div class="interactivo">
+                <h1>¡Desafía a tus amigos! </h1>
+                <p>Compite contra tus compañeros en apasionantes partidas de ajedrez. Demuestra quién es el mejor estratega <br>y disfruta de la emoción de la competencia amistosa. <br>¡Únete ahora y lleva tus habilidades ajedrecísticas al siguiente nivel!</p>
+            </div> 
+        </div>
+        
+        <div class="tercer-modulo">
+            <div class="edades">
+                <h1>Para todas las edades</h1>
+                <p> Ven y descubre el emocionante mundo del ajedrez diseñado especialmente para niños como tú. Aprende y diviértete con desafíos adaptados a tu nivel, mientras desarrollas tu habilidad estratégica. ¡Explora el mágico universo del ajedrez en un entorno amigable y lleno de alegría!</p>
+            </div>
+            <div class="contenedor-img-edades">
+                <img src="assets\img\img-edades.png" class="img-edades">
+            </div>
+        </div>
+        
+        <div class="cuarto-modulo">
+                    
+            <div class="form-registro">
+                <form action="registro.php" method="post" class="kid-form">
+                    <h2>¡Regístrate y recibe noticias!</h2>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required >
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="correo" name="email" placeholder="El email de tus padres"required>
+                    
+                                       
+                    <button class="btnForm" type="submit" name="Enviar">Enviar</button>
+                </form>
+            
+
+            </div>
+        </div>
+                        
+    </div>
+    </main>
+
+
+    <footer class="footer">
+    <p>Página Web creada por @MariaCé</p>
+    </footer>
+    
+ </body>
+     
+ 
+</html>

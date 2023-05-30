@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+
+    width: 100%;
+    height: 100px;
+    height: rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 1.3rem;
+
+}
+
+/*Formato navegador cabecera*/
+
+.navChess {
+    font-family: 'Caveat', sans-serif;
+    font-size: 1.6rem;
+}
+
+a .logo-nav-chess {
+    max-width: 200px;
+ 
+}
+
+.logo-nav-chess {
+    max-width: 80%;
+
+}
+
+
+
+/* Formato para sección con ajedrez*/
+
+.contenedorAjedrez {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contenedorTablero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myBoard {
+    margin-top: 50px;
+}
+
+
+/* Formato para utilidades de la drch*/
+
+
+.cabecera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opcionesJuego{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.girarTablero {
+    align-items: center;
+    text-align: center;
+    min-width: 200px;
+    height: 50px;
+    margin-left: 36px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;
+    z-index: 0;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.girarTablero:hover:after {
+    top: 0;
+    left: 0;
+}
+
+.girarTablero:after {
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+    transition: 0.2s;
+    border-radius: 15px;
+    background-color: #DB6997;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.reiniciar {
+    align-items: center;
+    text-align: center;
+    min-width: 200px;
+    height: 50px;
+    margin-right: 60px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;
+    z-index: 0;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.reiniciar:hover:after {
+    top: 0;
+    left: 0;
+}
+
+.reiniciar:after {
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 4px;
+    left: 5px;
+    transition: 0.2s;
+    border-radius: 15px;
+    background-color: #008F72;
+}
+
+.eligeOponente {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.maquina {
+    min-width: 230px;
+    height: 11em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #DB6997;
+    color: #DB6997;
+}
+
+.maquina:hover {
+    color: #fff;
+}
+
+.maquina:hover:after {
+    width: 100%;
+}
+
+.maquina:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #DB6997;
+}
+
+
+.oponente {
+    min-width: 230px;
+    height: 11em;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #00A8BB;
+    color: #00A8BB;
+}
+
+.oponente:hover {
+    color: #fff;
+}
+
+.oponente:hover:after {
+    width: 100%;
+}
+
+.oponente:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #00A8BB;
+}
+

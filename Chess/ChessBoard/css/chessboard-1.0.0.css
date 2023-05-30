@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Roboto:wght@100&display=swap');
+
+.clearfix-7da63 {
+  clear: both;
+}
+
+.board-b72b1 {
+
+  box-sizing: content-box;
+}
+
+.square-55d63 {
+  float: left;
+  position: relative;
+
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.white-1e1d7 {
+  background-color: #8BD0E5;
+  color: #00A8BB;
+}
+
+.black-3c85d {
+  background-color: #00A8BB;
+  color: #8BD0E5;
+}
+
+.highlight1-32417, .highlight2-9c5d2 {
+  box-shadow: inset 0 0 3px 3px #008F72;
+}
+
+.notation-322f9 {
+  color: black;
+  font-weight: bold;
+  cursor: default;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 14px;
+  position: absolute;
+}
+
+.alpha-d2270 {
+  bottom: 1px;
+  right: 3px;
+}
+
+.numeric-fc462 {
+  top: 2px;
+  left: 2px;
+}
+
+.piece-417db{
+  max-width: 60%!important;
+  max-height: 80%!important;
+  width: 40px !important;
+  height: 50px !important;
+  margin-left: 12px;
+  margin-top: 5px;  
+}
+
+
+
+
