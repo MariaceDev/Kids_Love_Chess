@@ -115,8 +115,6 @@ var config = {
 board = Chessboard('myBoard', config)
 
 
-document.querySelector(".girarTablero").addEventListener("click", function() {
-  board.flip();
-})
+
 
 

@@ -1,5 +1,3 @@
-
-
 var board = null
 var game = new Chess()
 var whiteSquareGrey = '#B9DAB4'
@@ -84,8 +82,6 @@ function onSnapEnd () {
 }
 
 
-
-
 var config = {
   draggable: true,
   position: 'start',
@@ -96,11 +92,4 @@ var config = {
   onSnapEnd: onSnapEnd
 }
 
-
 board = Chessboard('myBoard', config);
-
-document.querySelector(".girarTablero").addEventListener("click", function() {
-  board.flip();
-});
-
-

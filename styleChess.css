@@ -32,13 +32,13 @@ nav {
     font-size: 1.6rem;
 }
 
-a .logo-nav-chess {
-    max-width: 200px;
- 
-}
+
 
 .logo-nav-chess {
-    max-width: 80%;
+    max-width: 15%;
+    display: flex;
+    justify-content: center;
+   
 
 }
 
@@ -80,7 +80,7 @@ a .logo-nav-chess {
     align-items: center;
 }
 
-.girarTablero {
+#girarTablero {
     align-items: center;
     text-align: center;
     min-width: 200px;
@@ -105,12 +105,12 @@ a .logo-nav-chess {
     -o-border-radius: 15px;
 }
 
-.girarTablero:hover:after {
+#girarTablero:hover:after {
     top: 0;
     left: 0;
 }
 
-.girarTablero:after {
+#girarTablero:after {
     content: "";
     width: 100%;
     z-index: -1;
@@ -127,7 +127,7 @@ a .logo-nav-chess {
     -o-border-radius: 15px;
 }
 
-.reiniciar {
+#reiniciar {
     align-items: center;
     text-align: center;
     min-width: 200px;
@@ -151,12 +151,12 @@ a .logo-nav-chess {
     -o-border-radius: 15px;
 }
 
-.reiniciar:hover:after {
+#reiniciar:hover:after {
     top: 0;
     left: 0;
 }
 
-.reiniciar:after {
+#reiniciar:after {
     content: "";
     width: 100%;
     z-index: -1;
@@ -176,7 +176,7 @@ a .logo-nav-chess {
     align-items: center;
 }
 
-.maquina {
+#maquina {
     min-width: 230px;
     height: 11em;
     margin-top: 20px;
@@ -195,15 +195,15 @@ a .logo-nav-chess {
     color: #DB6997;
 }
 
-.maquina:hover {
+#maquina:hover {
     color: #fff;
 }
 
-.maquina:hover:after {
+#maquina:hover:after {
     width: 100%;
 }
 
-.maquina:after {
+#maquina:after {
     content: "";
     position: absolute;
     z-index: -1;
@@ -216,7 +216,7 @@ a .logo-nav-chess {
 }
 
 
-.oponente {
+#oponente {
     min-width: 230px;
     height: 11em;
     margin-left: 60px;
@@ -236,15 +236,15 @@ a .logo-nav-chess {
     color: #00A8BB;
 }
 
-.oponente:hover {
+#oponente:hover {
     color: #fff;
 }
 
-.oponente:hover:after {
+#oponente:hover:after {
     width: 100%;
 }
 
-.oponente:after {
+#oponente:after {
     content: "";
     position: absolute;
     z-index: -1;

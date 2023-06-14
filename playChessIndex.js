@@ -8,22 +8,29 @@ var config = {
 
 // Funcionalidad de los botones
 
-  function contraMaquina() {
+  document.getElementById("maquina").addEventListener("click", function () {
     const script = document.createElement('script');
     script.src = 'playChessMaquina.js';
     document.body.appendChild(script);
-    alert("!Gánale a la máquina!")
-  }
+    alert("!Gánale a la máquina!");
+  
+  });
 
-  function contraOponente() {
+  document.getElementById("oponente").addEventListener("click", function () {
     const script = document.createElement('script');
     script.src = 'playChessOponente.js';
     document.body.appendChild(script);
-  }
-  
-  function reiniciar() {
+  });
+
+  document.getElementById("reiniciar").addEventListener("click", function () {
+   
     const script = document.createElement('script');
     script.src = 'playChessIndex.js';
     document.body.appendChild(script);
-  }
+  });
+
+  document.getElementById("girarTablero").addEventListener("click", function () {
+    board.flip();
+  });
+  
 
